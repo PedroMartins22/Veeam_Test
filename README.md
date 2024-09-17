@@ -21,5 +21,5 @@ cd Veeam_Test
 
 ### 2. Run the program
 ```bash
-python ./SyncFolders.py "soureFolder" "replicaFolder" intervalBetweenSyncs(in secs) "pathOfLogFile"
+python .\SyncFolders.py "soureFolder" "replicaFolder" intervalBetweenSyncs(in secs) "pathOfLogFile"
 ```
