@@ -15,5 +15,11 @@ This is a command-line utility that synchronizes two folders: a source folder an
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/folder-sync-tool.git
-cd folder-sync-tool
+git clone https://github.com/PedroMartins22/Veeam_Test.git
+cd Veeam_Test
+```
+
+### 2. Run the program
+```bash
+python ./SyncFolders.py <soureFolder> <replicaFolder> <intervalBetweenSyncs> <pathOfLogFile>
+```
