@@ -80,6 +80,11 @@ def main():
     
     args = parser.parse_args()
 
+    # Check if source folder exists
+    if not os.path.exists(args.source):
+        print(f"Warning: Source folder '{args.source}' does not exist.")
+        sys.exit(1)
+
     # Setup logging
     log = setup_logging(args.log_file)
 
