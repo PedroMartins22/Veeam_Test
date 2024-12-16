@@ -23,3 +23,6 @@ cd Veeam_Test
 ```bash
 python .\SyncFolders.py "soureFolder" "replicaFolder" intervalBetweenSyncs(in secs) "pathOfLogFile"
 ```
+
+
+# Põe te no crlh
